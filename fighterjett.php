@@ -9,9 +9,11 @@ class fighterjett extends \Spaceship{
         $ammo = 100,
         $fuel = 100,
         $hitPoints = 75,
-        $speed = 100
+        $speed = 150
     ) {
         parent::__construct($ammo, $fuel, $hitPoints);
+        $this->speed = $speed;
+
     }
     
 }
