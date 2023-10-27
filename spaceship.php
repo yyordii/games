@@ -26,6 +26,7 @@
 class Spaceship
 {
     // Properties
+    public string $name;
     public bool $isAlive;
     public int $fuel;
     public int $hitPoints;

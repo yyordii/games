@@ -5,6 +5,8 @@ include_once 'spaceship.php';
 
 class fighterjett extends \Spaceship{
     public int $speed;
+    public int $wins = 0;
+    public int $totalDamageDone = 0;
     public function __construct(
         $ammo = 100,
         $fuel = 100,
